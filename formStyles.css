@@ -20,6 +20,7 @@ form label, form p {
 
 form input[type="text"],
 form input[type="email"],
+form input[type="tel"],
 form textarea {
     width: 100%;
     padding: 1rem;
