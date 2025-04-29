@@ -1,0 +1,79 @@
+<!-- Copy the text below and save as html. -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content ="Mark Herrell">
+        <meta name="description" content="This is an HTML template"> <!-- fill this in -->
+        <title>
+            Chasin' Charters
+        </title> 
+        <link href="styles2.css" rel="stylesheet"/>
+        <link href="formStyles.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="index.html"><img src="Logo.png"></a>
+        <nav>
+            <a href="about.html">About</a>
+            <a id="current" href="#book">Book a Trip</a>
+        </nav>
+    </header>
+
+
+    <!-- Main Section -->
+    <main>
+        <h1>Chasin' Charters</h1>
+
+        <!-- form -->
+        <form id="bookingForm">
+            <label for="guestName">Full Name</label>
+            <input id="guestName" name="guestName" type="text" required>
+        
+            <label for="guestEmail">Email</label>
+            <input id="guestEmail" name="guestEmail" type="email" required>
+        
+            <label for="guestPhone">Phone Number</label>
+            <input id="guestPhone" name="guestPhone" type="text" required>
+        
+            <p>What do you want to catch?</p>
+
+            <div class="radioGroup">
+                <input id="walleye" name="fish" type="radio" value="Walleye" required>
+                <label for="walleye">Walleye</label>
+            </div>
+            
+            <div class="radioGroup">
+                <input id="salmon" name="fish" type="radio" value="King Salmon" required>
+                <label for="salmon">King Salmon</label>
+            </div>
+            
+            <div class="radioGroup">
+                <input id="browns" name="fish" type="radio" value="Brown Trout" required>
+                <label for="browns">Brown Trout</label>
+            </div>
+            <label for="message">Any Notes or Questions?</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+        
+            <input type="submit" value="Send Request">
+        </form>
+
+
+        </form>
+       
+
+    </main>
+
+    <footer>
+        <div id="contact">
+            <a href="tel:9208324852">Phone: (920)832-4852</a>
+            <a href="mailto:cptChase@chasincharters.com">Email: cptChase@chasincharters.com</a>
+        </div>
+    </footer>
+    
+    <script src="slideShow.js" type="text/javascript"></script>
+    </body>
+
+</html>
