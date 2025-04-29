@@ -22,7 +22,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
 form textarea {
-    width: 100%;
+    width: 97%;
     padding: 1rem;
     border: none;
     border-radius: 0.5rem;
@@ -84,4 +84,9 @@ form input[type="submit"]:hover {
 .radioGroup input[type="radio"] {
     margin-right: 1rem;
     transform: scale(1.5);
+}
+
+form input[type="submit"]:active {
+    transform: scale(0.97);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
