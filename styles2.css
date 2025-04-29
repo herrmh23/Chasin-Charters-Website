@@ -4,6 +4,11 @@ html {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(14, 14, 14);
     margin: 0;
@@ -21,8 +26,6 @@ header {
 
 header nav a {
     margin-right: 5%;
-    color: white;
-    text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -120,3 +123,31 @@ footer a {
 footer a:hover {
     color: rgb(178, 178, 178);
 }
+
+/* button */
+
+.button {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonText a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.buttonText a:hover {
+    background-color: rgb(178, 178, 178);
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
