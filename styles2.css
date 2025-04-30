@@ -167,7 +167,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
     main h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
         margin: 1rem;
     }
@@ -176,7 +176,7 @@ footer a:hover {
         width: 80%;
     }
 
-    #about {
+    #mainImage {
         width: 90%;
         font-size: 3rem;
         text-align: justify;
