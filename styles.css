@@ -108,7 +108,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.554);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
 
     h1 {
         font-size: 5rem;
