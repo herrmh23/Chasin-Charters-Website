@@ -172,11 +172,12 @@ footer a:hover {
         margin: 1rem;
     }
 
-    #slideshow {
+    #slideShow {
         width: 80%;
+        align-items: center;
     }
 
-    #mainImage {
+    #about {
         width: 90%;
         font-size: 3rem;
         text-align: justify;
