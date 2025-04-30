@@ -160,9 +160,13 @@ footer a:hover {
 
 @media (max-width: 768px) {
     main h1 {
-        font-size: 4rem;
+        font-size: 2rem;
         text-align: center;
         margin: 1rem;
+    }
+
+    #slideshow {
+        width: 90%;
     }
 
     #about {
@@ -179,7 +183,6 @@ footer a:hover {
     .buttonText a {
         font-size: 2rem;
         padding: 1rem 2rem;
-
     }
 
     footer {
