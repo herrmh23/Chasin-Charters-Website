@@ -14,23 +14,23 @@ function showImage(imageIndex) {
     switch(imageIndex) {
         case 1:
             image.setAttribute('src', 'ChaseKing.jpg');
-            image.setAttribute('alt', 'Image of Captain Chase holding a large king salmon');
+            image.setAttribute('alt', 'Captain Chase holding a large king salmon');
         break;
         case 2:
             image.setAttribute('src', 'ChaseDouble.jpg');
-            image.setAttribute('alt', 'Image of Captain Chase holding a king salmon and a walleye');
+            image.setAttribute('alt', 'Captain Chase holding a king salmon and a walleye');
             break;
         case 3:
             image.setAttribute('src', 'ChaseWalleye.jpg');
-            image.setAttribute('alt', 'Image of Captain Chase holding a large walleye');
+            image.setAttribute('alt', 'Captain Chase holding a large walleye');
             break;
         case 4:
             image.setAttribute('src', 'ChaseBigBrown.jpg');
-            image.setAttribute('alt', 'Image of Captain Chase holding a large brown trout');
+            image.setAttribute('alt', 'Captain Chase holding a large brown trout');
             break;
         case 5:
             image.setAttribute('src', 'ChaseBroken.jpg');
-            image.setAttribute('alt', 'Image of Captain Chase holding a rod broken in half');
+            image.setAttribute('alt', 'Captain Chase holding a rod broken in half');
             break;
     }
 }
