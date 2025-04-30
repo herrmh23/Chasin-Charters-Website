@@ -166,12 +166,12 @@ footer a:hover {
     }
 
     #slideshow {
-        width: 90%;
+        width: 80%;
     }
 
     #about {
         width: 90%;
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: justify;
     }
 
