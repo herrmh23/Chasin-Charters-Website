@@ -174,7 +174,7 @@ footer a:hover {
 
     #slideShow {
         width: 80%;
-        align-items: center;
+        justify-content: center;
     }
 
     #about {
