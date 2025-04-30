@@ -167,9 +167,9 @@ footer a:hover {
 
 @media (max-width: 768px) {
     main h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         text-align: center;
-        margin: 1rem;
+        margin: 1.5rem;
     }
 
     /* #slideShow {
