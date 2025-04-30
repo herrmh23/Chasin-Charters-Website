@@ -158,8 +158,36 @@ footer a:hover {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+    main h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
     #about {
-        width: 80%;
+        width: 90%;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .button {
+        margin-top: 3rem;
+        justify-content: center;
+    }
+
+    .buttonText a {
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    footer a {
+        margin: 0.5rem 0;
     }
 }
