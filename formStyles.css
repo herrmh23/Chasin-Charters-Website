@@ -59,7 +59,7 @@ form input[type="submit"]:hover {
     color: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     form {
         width: 90%;
         padding: 1.5rem;
