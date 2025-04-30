@@ -4,15 +4,21 @@ html {
     color: white;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
-
 body {
     background-color: rgb(14, 14, 14);
     margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 /* video */
@@ -108,7 +114,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.554);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 
     h1 {
         font-size: 5rem;
