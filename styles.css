@@ -68,15 +68,20 @@ h1 {
     font-size: 2.5rem;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    animation: fadeInArrow 2s ease-out 1s forwards, bounce 2s infinite;
-    opacity: 0;
+    opacity: 1;                          /* Visible by default */
+    transition: opacity 0.8s ease-in-out; /* Fade opacity in 0.8s */
     z-index: 10;
-    transition: color 0.3s ease;
 }
-
 .scroll-down:hover {
     color: white;
 }
+/* Target element with both classes ".scroll-down" and ".hidden" */
+.scroll-down.hidden {
+    opacity: 0;        /* Fade out */
+    pointer-events: none;
+}
+
+
 
 @keyframes fadeInArrow {
     to { opacity: 1; }
